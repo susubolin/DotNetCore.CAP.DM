@@ -5,6 +5,7 @@ DotNetCore.CAP.DM 是 CAP的扩展库！
 DM 是一个开源的关系型数据库，你可以使用DM 来作为 CAP 消息的持久化。
 
 ## 配置
+本次提交是基于DotNetCore.CAP 6.2.0 版本开发
 
 要使用 DM 存储，你需要从 NuGet 安装以下扩展包：
 

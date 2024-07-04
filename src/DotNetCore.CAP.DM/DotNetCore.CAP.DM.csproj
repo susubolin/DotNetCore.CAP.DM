@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<PackageTags>$(PackageTags);DM</PackageTags>
+	</PropertyGroup>
+ 
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.0" />
+		<PackageReference Include="DM.DmProvider" Version="8.3.1.25526" />
+		<PackageReference Include="DotNetCore.CAP" Version="6.2.0" />
+	</ItemGroup>
+
+
+
+</Project>

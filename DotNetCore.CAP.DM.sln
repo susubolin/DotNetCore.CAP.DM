@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B2AE124-6636-4DE9-83A3-70360DABD0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C09CDAB0-6DD4-46E9-B7F3-3EF2A4741EA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{3A6B6931-A123-477A-9469-8B468B5385AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.CAP.DM", "src\DotNetCore.CAP.DM\DotNetCore.CAP.DM.csproj", "{A32A3158-34C8-4CE1-8C8B-ABB5E16FBF20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.RabbitMQ.DM", "samples\Sample.RabbitMQ.DM\Sample.RabbitMQ.DM.csproj", "{B11AD38F-4EA7-40B1-BB8B-393DF207D1A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A32A3158-34C8-4CE1-8C8B-ABB5E16FBF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32A3158-34C8-4CE1-8C8B-ABB5E16FBF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32A3158-34C8-4CE1-8C8B-ABB5E16FBF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32A3158-34C8-4CE1-8C8B-ABB5E16FBF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11AD38F-4EA7-40B1-BB8B-393DF207D1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11AD38F-4EA7-40B1-BB8B-393DF207D1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11AD38F-4EA7-40B1-BB8B-393DF207D1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11AD38F-4EA7-40B1-BB8B-393DF207D1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A32A3158-34C8-4CE1-8C8B-ABB5E16FBF20} = {9B2AE124-6636-4DE9-83A3-70360DABD0C4}
+		{B11AD38F-4EA7-40B1-BB8B-393DF207D1A3} = {3A6B6931-A123-477A-9469-8B468B5385AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E70565D-94CF-40B4-BFE1-AC18D5F736AB}
+	EndGlobalSection
+EndGlobal
